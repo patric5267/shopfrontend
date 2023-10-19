@@ -1,0 +1,92 @@
+.paymentcon{
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymentinner{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orderplaced{
+    background-color: #66e966;;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    animation-name: order;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.orderplaced img{
+    width: 8rem;
+}
+.transactionid{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+.transactionid h2{
+    margin-bottom: 0.4rem;
+}
+.backbtn{
+    background-color: #3d4b57;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+@keyframes order {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .paymentinner{
+        width: 90%;
+        height: 80%;
+    }    
+    .transactionid{
+       font-size: 1rem;
+     }
+     
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .paymentinner{
+        width: 90%;
+        height: 80%;
+    }    
+    .transactionid{
+       font-size: 1rem;
+     }
+     
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .paymentinner{
+        width: 90%;
+    }    
+    .transactionid{
+       font-size: 0.7rem;
+     }
+}

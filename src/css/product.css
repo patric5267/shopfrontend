@@ -1,0 +1,560 @@
+.productovercon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.innerovercon {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: blue; */
+
+}
+
+.overleft {
+    width: 47rem;
+    height: 100%;
+    /* background-color: #0ef40e2e; */
+    display: grid;
+    grid-template-columns: 22rem 22rem;
+    row-gap: 4px;
+    justify-content: center;
+    column-gap: 0.4rem;
+    /* border: 1px solid red; */
+}
+
+.overleft div {
+    height: 29rem;
+}
+
+.overleft div img {
+    width: 100%;
+    height: 100%;
+}
+
+.overright {
+    width: 45%;
+    height: 100%;
+    /* background-color: #ff000033; */
+    display: flex;
+    flex-direction: column;
+}
+
+.overright .title {
+    width: 30rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.productid {
+    margin-bottom: 1rem;
+}
+
+.pricescon {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 16rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.pricescon p {
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+}
+
+#originalprice {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.creditcon {
+    width: 26rem;
+    /* border: 1px solid red; */
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+em {
+    color: red;
+    font-weight: 800;
+}
+
+.selectsize {
+    display: flex;
+    height: 5.4rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    /* border: 1px solid green; */
+}
+
+.boxsize {
+    display: flex;
+}
+
+.sheading {
+    font-weight: 800;
+}
+
+.boxsize div {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #d6d7da;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity {
+    /* border: 1px solid red; */
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.quanbutons {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.quanbutons div {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    border: 1px solid #d6d7da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.wishlist {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.wishlist div {
+    margin-right: 0.7rem;
+    /* border: 1px solid green; */
+    margin-bottom: 0;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.wishlist .wishlistbtn {
+    width: 11rem;
+    border: 1px solid #d6d7da;
+    cursor: pointer;
+}
+
+.wishlist .addbagbtn {
+    width: 8rem;
+    background-color: #d63242;
+    color: white;
+    cursor: pointer;
+}
+
+.detailbox {
+    /* border: 1px solid red; */
+    width: 31rem;
+
+}
+
+.detailbox img {
+    width: 2rem;
+    padding-right: 0.2rem;
+    cursor: pointer;
+}
+
+.productdescription {
+    width: 100%;
+    /* background-color: green; */
+
+}
+
+.pincode p {
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+}
+
+.opensection {
+    padding: 0rem 2rem 1rem 0rem;
+    text-align: justify;
+    border: 1px solid #d6d7da;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    height: auto;
+}
+
+.opensection p {}
+
+.productdescription .top {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    font-size: 0.8rem;
+    align-items: center;
+
+}
+
+.inputcheck {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d6d7da;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    height: auto;
+}
+
+.inputcheck input {
+    border: 1px solid #d6d7da;
+    outline: none;
+    height: 2.5rem;
+    width: 21rem;
+    background-color: transparent;
+    font-weight: 800;
+
+}
+
+.bot {
+    margin-bottom: 1rem;
+}
+
+.inputcheck div {}
+
+.inputcheck button {
+    height: 2.5rem;
+    border: 1px solid #d6d7da;
+    background-color: transparent;
+    width: 5rem;
+    font-weight: 800;
+    color: #d63242;
+}
+
+.additionalist {
+    display: flex;
+    flex-direction: column;
+}
+
+.companylist {
+    margin-top: 1rem;
+}
+
+.companylist p {
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+}
+
+.sponserlist img {
+    margin-right: 0.2rem;
+    width: 2rem;
+}
+.similar {
+    margin-top: 1rem;
+    font-size:1rem
+}
+.boxsize button{
+    width: 3rem;
+    height: 3rem;
+    outline: none;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .overright .title {
+        width: 100%;
+    }
+    .creditcon {
+        width: 100%;    
+    }    
+    .detailbox {
+        width: 100%;
+    }
+    .overleft {
+        grid-template-columns: 26vw 26vw;
+    }    
+    .overleft div {
+        height: 38vw;
+    }
+    .inputcheck input {
+        width: 33vw;
+    }
+    .pincode p {
+        font-size: 1.3vw;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .productovercon {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .overleft div {
+        min-width: 100%;
+        height: 122vw;
+    }
+
+    .overleft {
+        width: 100%;
+        height: 100%;
+        /* background-color: #0080002e; */
+        display: flex;
+        /* border: 1px solid red; */
+        overflow: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+    }
+
+    .innerovercon {
+        width: 100%;
+    }
+
+    .overright {
+        width: 100%;
+        background-color: white;
+    }
+
+    .overright .title {
+        width: 100%;
+        font-size: 1rem;
+        padding-left: 0.4rem;
+    }
+
+    .detailbox {
+        width: 100%;
+    }
+
+    .productdescription .top {
+        font-size: 0.7rem;
+    }
+
+    .wishlist .wishlistbtn {
+        width: 9rem;
+    }
+
+    .top h2 {
+        margin-left: 0.4rem;
+    }
+
+    .opensection {
+        padding: 0rem 2rem 1rem 0.5rem;
+    }
+
+    .inputcheck input {
+        width: 13rem;
+        margin-left: 0.5rem;
+        padding-left: 0.4rem;
+    }
+
+    .wishlist div {
+        margin-left: 0.4rem;
+        margin-right: 0;
+    }
+
+    .pincode p {
+        font-size: 0.5rem;
+        margin-left: 0.4rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .productid {
+        margin-bottom: 1rem;
+        margin-left: 0.4rem;
+    }
+
+    #originalprice {
+        font-size: 1.1rem;
+    }
+
+    .creditcon {
+        width: 100%;
+        padding-left: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .sheading {
+        padding-left: 0.4rem;
+    }
+
+    .boxsize div {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.4rem;
+    }
+
+    .quanbutons div {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.4rem;
+        font-size: 1.5rem;
+    }
+
+    .companylist p {
+        padding-left: 0.4rem;
+    }
+
+    .sponserlist img {
+        margin-left: 0.4rem;
+    }
+
+    .detailbox img {
+        width: 1.5rem;
+        padding-right: 0.4rem;
+    }
+
+    .similar {
+        margin-top: 0.7rem;
+        font-size: 0.6rem
+    }
+    .pricescon{
+        width: 15rem;
+    }
+
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .productovercon {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .overleft div {
+        min-width: 100%;
+        height: 122vw;
+    }
+
+    .overleft {
+        width: 100%;
+        height: 100%;
+        /* background-color: #0080002e; */
+        display: flex;
+        /* border: 1px solid red; */
+        overflow: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+    }
+
+    .innerovercon {
+        width: 100%;
+    }
+
+    .overright {
+        width: 100%;
+        background-color: white;
+    }
+
+    .overright .title {
+        width: 100%;
+        font-size: 1rem;
+        padding-left: 0.4rem;
+    }
+
+    .detailbox {
+        width: 100%;
+    }
+
+    .productdescription .top {
+        font-size: 0.7rem;
+    }
+
+    .wishlist .wishlistbtn {
+        width: 9rem;
+    }
+
+    .top h2 {
+        margin-left: 0.4rem;
+    }
+
+    .opensection {
+        padding: 0rem 2rem 1rem 0.5rem;
+    }
+
+    .inputcheck input {
+        width: 13rem;
+        margin-left: 0.5rem;
+        padding-left: 0.4rem;
+    }
+
+    .wishlist div {
+        margin-left: 0.4rem;
+        margin-right: 0;
+    }
+
+    .pincode p {
+        font-size: 0.5rem;
+        margin-left: 0.4rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .productid {
+        margin-bottom: 1rem;
+        margin-left: 0.4rem;
+    }
+
+    #originalprice {
+        font-size: 1.1rem;
+    }
+
+    .creditcon {
+        width: 100%;
+        padding-left: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .sheading {
+        padding-left: 0.4rem;
+    }
+
+    .boxsize div {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.4rem;
+    }
+
+    .quanbutons div {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.4rem;
+        font-size: 1.5rem;
+    }
+
+    .companylist p {
+        padding-left: 0.4rem;
+    }
+
+    .sponserlist img {
+        margin-left: 0.4rem;
+    }
+
+    .detailbox img {
+        width: 1.5rem;
+        padding-right: 0.4rem;
+    }
+
+    .similar {
+        margin-top: 0.7rem;
+        font-size: 0.6rem
+    }
+    .pricescon{
+        width: 15rem;
+    }
+
+}

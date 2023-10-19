@@ -1,0 +1,112 @@
+import { createReducer } from "@reduxjs/toolkit";
+
+const iniitialstate = {
+  isloading:false,
+  iserror:false,
+  date:null,
+  item:null,
+  status:null,
+  msg:null,
+  msgcart:null,
+  paymentid:null,
+  cartitem:null,
+  searchitem:null,
+  orderitem:null,
+  isloadingitem:null,
+  wishlist:null,
+  wishcount:0
+ 
+}
+
+export const authreducers = createReducer(iniitialstate , {
+  gettshirtpending:(state)=>{
+    state.isloading=true
+  },
+  gettshirtsucess:(state,action)=>{
+    state.isloading=false
+    state.date=action.payload
+  },
+  gettshirterror:(state)=>{
+    state.iserror=true
+  },
+  getitempending:(state)=>{
+    state.isloadingitem=true
+  },
+  getitemsuccess:(state,action)=>{
+    state.isloadingitem=false
+    state.item=action.payload
+  },
+  getitemerror:(state)=>{
+    state.iserror=true
+  },
+  signonoff:(state,action)=>{
+     state.status=action.payload
+  },
+  additemsuccess:(state,action)=>{
+    state.msg=action.payload
+  },
+  clearmessage:(state)=>{
+    state.msg=null
+  },
+  getcartitempending:(state)=>{
+    // state.isloading=true
+  },
+  getcartitemsuccess:(state,action)=>{
+    state.isloading=false
+    state.cartitem=action.payload
+  },
+  getcartitemerror:(state)=>{
+    state.iserror=true
+  },
+  removeitemsuccess:(state,action)=>{
+    state.msg=action.payload
+  },
+  addminussuccess:(state,action)=>{
+    state.msgcart=action.payload
+  },
+  clearmsgcart:(state)=>{
+    state.msgcart=null
+  },
+  paymentclearsuccess:(state,action)=>{
+    state.paymentid=action.payload
+  },
+  getsearchitempending:(state)=>{
+    // state.isloading=true
+  },
+  getsearchitemsuccess:(state,action)=>{
+    state.isloading=false
+    state.searchitem=action.payload
+  },
+  getsearchitemerror:(state)=>{
+    state.iserror=true
+  },
+  clearpayment:(state)=>{
+    state.paymentid=null
+  },
+  getorderitempending:(state)=>{
+    state.isloading=true
+  },
+  getordersuccess:(state,action)=>{
+    state.isloading=false
+    state.orderitem=action.payload
+  },
+  addtowishsuccess:(state,action)=>{
+    state.msg=action.payload
+  },
+  wishlistpending:(state)=>{
+    // state.isloading=true
+  },
+  wishlistsuccess:(state ,action)=>{
+    state.isloading=false
+    state.wishlist=action.payload
+  },
+  removewishsucces:(state,action)=>{
+    state.msg=action.payload
+  },
+  wishcountsuccess:(state,action)=>{
+    state.wishcount=action.payload
+  },
+  increasecount:(state,action)=>{
+    state.wishcount=action.payload
+  }
+})

@@ -1,0 +1,716 @@
+.cartcon {
+    width: 100%;
+    display: flex;
+}
+
+.itemscon {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #ff00003d; */
+}
+
+.shoppingcart {
+    height: 10%;
+    width: 90%;
+    /* background-color: #00800024; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+
+.cartlist {
+    width: 90%;
+    /* background-color: #ff000030; */
+    margin-top: 2vw;
+}
+
+.caritem {
+    width: 100%;
+    border: 0.2vh solid #d6d7da;
+    height: 15vw;
+    margin-bottom: 1vw;
+    display: flex;
+}
+
+.cartimg {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartimg img {
+    width: 88%;
+    height: 95%;
+    border-radius: 2%;
+}
+
+.cartdesc {
+    width: 80%;
+    height: 100%;
+}
+
+.topcart {
+    width: 100%;
+    height: 75%;
+}
+
+.downcart {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.downcart div {
+    margin-right: 2vw;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.namecartcon {
+    height: 3vw;
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: 800;
+
+}
+
+.colorcartcon {
+    height: 2vw;
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.quancartcon {
+    height: 7vw;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.quancartcon div {
+    border: 0.2vh solid #d6d7da;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.pricecon {
+    width: 25%;
+    /* background-color: #00800045; */
+    border: 1px solid #d6d7da;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.priceinnerbox {
+    width: 100%;
+    height: 41vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pheading {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2vw;
+    font-weight: 800;
+    font-size: 1.4vw;
+}
+
+.priceinfo {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infobox {
+    width: 85%;
+}
+
+.firstbox {
+    width: 100%;
+    height: 5vw;
+    /* background-color: #00800021; */
+}
+
+.firstbox div {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2vw;
+}
+
+.secondbox .line {
+    width: 100%;
+    height: 0.4vw;
+    background-color: #d6d7da;
+    margin-top: 0;
+}
+
+.free {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    font-size: 1.2vw;
+}
+
+#delievery {
+    font-weight: 800;
+    margin-left: 0.4vw;
+    color: black;
+}
+
+.coupan {
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2vh solid #d6d7da;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.coupanbox {
+    width: 100%;
+    height: 60%;
+    border: 0.2vh solid #d6d7da;
+    display: flex;
+    transition: 1s;
+}
+
+.coupanbox:hover {
+    background-color: #00800029;
+}
+
+.leftcoupan {
+    width: 93%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: green;
+}
+
+.rightcoupan {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightcoupan img {
+    width: 1.5vw;
+    transform: rotate(266deg);
+}
+
+.fa-percent {
+    color: #1f5122;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+}
+
+.totalamount {
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4vw;
+}
+
+.checkoutbtn {
+    width: 100%;
+    background-color: #ec293c;
+    color: white;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.4vw;
+    border-radius: 2%;
+    cursor: pointer;
+    margin-bottom: 2vw;
+}
+
+#refund {
+    margin-right: 0.4vw;
+    margin-left: 0.4vw;
+    color: black;
+}
+
+.stickyprice {
+    display: none;
+}
+
+.carlistphone {
+    display: none;
+}
+
+.cartitemcolor {
+    position: absolute;
+    top: 0.9vw;
+    left: 3.1vw;
+    width: 0.8vw;
+    height: 1vw;
+    background-color: red;
+}
+
+.lapprice {
+    padding-right: 0.4vw;
+}
+.emptycart{
+    width: 100%;
+    height: 20rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptycart img{
+    /* border: 1px solid white; */
+}
+@media only screen and (min-width:1025px) and(max-width:1440px) {
+    .colorcartcon {
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (min-width:730px) and (max-width:1024px) {
+    .namecartcon {
+        font-size: 1.6vw;
+    }
+
+    .colorcartcon {
+        font-size: 1vw;
+    }
+
+    .quancartcon {
+        font-size: 1.6vw;
+    }
+
+    .downcart {
+        font-size: 1.6vw;
+    }
+
+    .rightstickyphone {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:729px) {
+    .pricecon {
+        display: none;
+    }
+
+    .cartlist {
+        display: none;
+    }
+
+    .shoppingcart {
+        width: 100%;
+        height: 3rem;
+        font-size: 1rem;
+        padding-left: 2vw;
+    }
+
+    .itemscon {
+        width: 100%;
+    }
+
+    .pricename {
+        display: none;
+    }
+
+    .carlistphone {
+        width: 100%;
+        margin-top: 4vw;
+        display: block;
+    }
+
+    .carlistphone .innercart {
+        width: 100%;
+        height: 13rem;
+        margin-bottom: 4vw;
+        border: 0.2vh solid #d6d7da;
+        border-right-width: 0;
+        border-left-width: 0;
+        border-top-width: 0;
+    }
+
+    .topcartphone {
+        width: 100%;
+        height: 80%;
+        /* background-color: #ff00002e; */
+        display: flex;
+    }
+
+    .downcartphone {
+        width: 100%;
+        height: 20%;
+        border: 0.2vh solid #d6d7da;
+        border-left-width: 0;
+        border-bottom-width: 0;
+        border-right-width: 0;
+        display: flex;
+        /* background-color: #00800029; */
+    }
+
+    .leftcartphone {
+        width: 50%;
+        height: 100%;
+        font-size: 1rem;
+        border: 0.2vh solid #d6d7da;
+        border-left-width: 0;
+        border-top-width: 0;
+        border-bottom-width: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(150, 153, 155);
+        font-weight: 800;
+    }
+
+    .rightcartphone {
+        width: 50%;
+        height: 100%;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(236, 41, 60);
+        font-weight: 800;
+    }
+
+    .topcartimg {
+        width: 20%;
+        height: 100%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .topcartimg img {
+        height: 7rem;
+        width: 5rem;
+        border-radius: 2%;
+    }
+
+    .topcartdesc {
+        width: 80%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .topcartdesc #prodo {
+        font-size: 1rem;
+        margin-bottom: 1vw;
+    }
+
+    .productcolor {
+        width: 0.6rem;
+        height: 0.6rem;
+        background-color: black;
+        position: absolute;
+        top: 0.3rem;
+        left: 2.7rem;
+    }
+
+    .phonequan {
+        display: flex;
+        align-items: center;
+        margin-top: 2vw;
+    }
+
+    .phonequan div {
+        border: 1px solid #d6d7da;
+        width: 1.5rem;
+        height: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .percentquan {
+        display: flex;
+        margin-top: 2vw;
+    }
+
+    .percentquan div {
+        margin-right: 2vw;
+        font-size: 1rem;
+    }
+
+    .phonequan p {
+        font-size: 1rem;
+    }
+
+    .stickyprice {
+        display: flex;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        height: 3.5rem;
+        background-color: #f6f1f1;
+    }
+
+    .leftstickyphone {
+        width: 50%;
+        height: 100%;
+        /* background-color: red; */
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        align-items: center;
+    justify-content: center;
+    }
+
+    .rightstickyphone {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+
+    .checkphonebtn {
+        width: 8rem;
+        height: 2rem;
+        background-color: #ec293c;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4%;
+        margin-right: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .pricecon {
+        display: none;
+    }
+
+    .cartlist {
+        display: none;
+    }
+
+    .shoppingcart {
+        width: 100%;
+        height: 10vw;
+        font-size: 4vw;
+        padding-left: 2vw;
+    }
+
+    .itemscon {
+        width: 100%;
+    }
+
+    .pricename {
+        display: none;
+    }
+
+    .carlistphone {
+        width: 100%;
+        margin-top: 4vw;
+        display: block;
+    }
+
+    .carlistphone .innercart {
+        width: 100%;
+        height: 65vw;
+        margin-bottom: 4vw;
+        border: 0.2vh solid #d6d7da;
+        border-right-width: 0;
+        border-left-width: 0;
+        border-top-width: 0;
+    }
+
+    .topcartphone {
+        width: 100%;
+        height: 80%;
+        /* background-color: #ff00002e; */
+        display: flex;
+    }
+
+    .downcartphone {
+        width: 100%;
+        height: 20%;
+        border: 0.2vh solid #d6d7da;
+        border-left-width: 0;
+        border-bottom-width: 0;
+        border-right-width: 0;
+        display: flex;
+        /* background-color: #00800029; */
+    }
+
+    .leftcartphone {
+        width: 50%;
+        height: 100%;
+        border: 0.2vh solid #d6d7da;
+        border-left-width: 0;
+        border-top-width: 0;
+        border-bottom-width: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        color: rgb(150, 153, 155);
+        font-weight: 800;
+    }
+
+    .rightcartphone {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        color: rgb(236, 41, 60);
+        font-weight: 800;
+    }
+
+    .topcartimg {
+        width: 20%;
+        height: 100%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .topcartimg img {
+        height: 4rem;
+        width: 3rem;
+        border-radius: 2%;
+    }
+
+    .topcartdesc {
+        width: 80%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .topcartdesc #prodo {
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .productcolor {
+        width: 2vw;
+        height: 2vw;
+        background-color: black;
+        position: absolute;
+        top: 1.4vw;
+        left: 11vw;
+    }
+
+    .phonequan {
+        display: flex;
+        align-items: center;
+        margin-top: 0.7rem;
+    }
+
+    .phonequan div {
+        border: 0.2vh solid #d6d7da;
+        width: 5vw;
+        height: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .percentquan {
+        display: flex;
+        margin-top: 0.7rem;
+    }
+
+    .percentquan div {
+        margin-right: 2vw;
+        font-size: 0.8rem;
+    }
+
+    .phonequan p {
+        font-size: 0.8rem;
+    }
+
+    .stickyprice {
+        display: flex;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        height: 3.5rem;
+        background-color: #f6f1f1;
+    }
+
+    .leftstickyphone {
+        width: 50%;
+        height: 100%;
+        /* background-color: red; */
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 4vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightstickyphone {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+
+    .checkphonebtn {
+        width: 8rem;
+        height: 2rem;
+        background-color: #ec293c;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4%;
+        margin-right: 1rem;
+    }
+
+}
